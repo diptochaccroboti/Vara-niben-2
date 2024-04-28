@@ -1,0 +1,10 @@
+/* fonts.css */
+@font-face {
+    font-family: 'Siyam Rupali';
+    src: url('siyamrupali.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Siyam Rupali', Arial, sans-serif; /* Use Siyam Rupali font for Bangla text */
+    font-size: 32px; /* Adjust font size as needed */
+}

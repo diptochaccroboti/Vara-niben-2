@@ -1,0 +1,143 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('1.jpg'); /* Specify the path to your background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.info {
+    width: 130px; /* Adjust the size as needed */
+    height: auto;
+    position: absolute;
+    top: 5px; /* Adjust top position */
+    left: 101%; /* Align to the middle */
+    transform: translateX(-50%);
+    transition: transform 0.3s; /* Add transition effect */
+}
+
+.info:hover {
+    transform: translateX(-50%) scale(1.2); /* Increase size when hovered */
+}
+
+
+
+.container {
+    position: relative; /* Add relative positioning */
+    width: 66%;
+    max-width: 600px;
+    margin: 45px auto;
+    background-color: rgba(255, 255, 255, 0.2); /* Add opacity to the background color */
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1; /* Grow to fill remaining space */
+    transition: filter 0.3s; /* Add transition effect for the blur */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label, select, button {
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+select, button {
+    padding: 15px;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.output-container {
+    margin: 0 auto 50px;
+    width: 90%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.route-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: deeppink;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 15px;
+}
+
+.output {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    transition: background-color 0.3s, transform 0.3s; /* Add transition effect for background-color and transform */
+    overflow: hidden; /* Ensure smooth transition */
+}
+
+.output:hover {
+    background-color: #44c2d8;
+    transform: scale(1.05); /* Increase size when hovered */
+}
+
+
+
+.bus-info {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.icon img {
+    width: 130px; /* Adjust the size as needed */
+    height: auto;
+    position: absolute;
+    top: 10px; /* Adjust top position */
+    left: 50%; /* Align to the middle */
+    transform: translateX(-50%);
+}
+
+footer {
+    margin-top: auto; /* Push footer to bottom */
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Add opacity to the background color */
+    border-top: 1px solid #ddd;
+}
+
+
+
+
